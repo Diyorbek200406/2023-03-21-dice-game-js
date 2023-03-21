@@ -159,3 +159,72 @@ a {
 a:hover {
   color: #222;
 }
+
+/* responsive */
+
+@media (max-width: 1200px) {
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+  }
+  html {
+    font-size: 52.5%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 900px) {
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+  }
+  html {
+    font-size: 42.5%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 600px) {
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+  }
+  html {
+    font-size: 32.5%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 400px) {
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+  }
+  html {
+    font-size: 22.5%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 350px) {
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+  }
+  html {
+    font-size: 15.5%;
+    box-sizing: border-box;
+  }
+}
